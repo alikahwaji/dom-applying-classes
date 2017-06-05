@@ -8,6 +8,7 @@ function start () {
   one()
   two()
   three()
+  makeVisible()
 
   // Your turn! Create a new function called `two`, then call it from here.
 }
@@ -35,6 +36,14 @@ function three () {
 
   //Next, we apply a new CSS class to it:
   three.classList.add('red')
-  
+
 }
 // CREATE FUNCTION makeVisible HERE
+function makeVisible () {
+  // First, we have to find the class:
+var makeVisible = document.getElementsByClassName('makeVisible')
+
+//Next, we need to add to list:
+makeVisible.classList.add('visible')
+
+}
