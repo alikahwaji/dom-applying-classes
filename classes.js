@@ -41,7 +41,7 @@ function three () {
 // CREATE FUNCTION makeVisible HERE
 function makeVisible () {
   // First, we have to find the class:
-var makeVisible = document.getElementsByClassName('makeVisible')
+var makeVisible = document.getElementsByClassName('invisible')
 
 //Next, we need to add to list:
 makeVisible.classList.add('visible')
